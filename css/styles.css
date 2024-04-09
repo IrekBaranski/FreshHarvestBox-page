@@ -75,6 +75,14 @@ img {
     /*test background-color */
     background-color: yellow;
 }
+.icon__link {
+    fill: var(--red-color);
+    background-color: var(--white-color);
+}
+.icon__link:hover,
+.icon__link:focus {
+    background-color: var(--hover-color);
+}
 
 /* tablet screen = @media (min-width: 768px) */
 
