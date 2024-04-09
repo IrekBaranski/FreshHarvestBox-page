@@ -205,8 +205,6 @@ icon:focus {
         justify-content: space-between;
         gap: 16px;
     }
-
-
 }
 
 @media (min-width: 1280px) {
@@ -233,3 +231,21 @@ icon:focus {
     width: 1280px;
     min-height: 377px;
 }
+
+
+/* END HERO Section */
+/*---------------------------------------------------------------- */
+/* HOW IT WORKS Section */
+
+
+
+/* END HOW IT WORKS Section */
+/* ---------------------------------------------------------------- */
+/* HOW IT WORKS Section */
+
+
+
+/* END HOW IT WORKS Section */
+/* ================================================================ */
+
+/* END FOOTER STYLES */
