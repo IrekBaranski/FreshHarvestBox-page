@@ -1,0 +1,96 @@
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /*colors sheet */
+    --black-color: #000000;
+    --red-color: #AE1332;
+    --white-color: #FFFFFF;
+    --green-color: #A4CB66;
+    --yelow-color: #F5CE13;
+    --hover-color: #AE13321A;
+
+    
+    --mobile-screen: min-width: 375px; /* @media (min-width: 375px){} */
+    --tablet-screen: min-width: 768px; /* @media (min-width: 768px){} */
+    --desktop-screen: min-width: 1280px; /* @media (min-width: 1280px){} */
+    
+
+}
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    color: var(--white-color);
+    background-color: var(--red-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*  GLOBAL STYLES */
+.section {
+    padding: 60px 0;
+}
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*test background-color */
+    background-color: yellow;
+}
+
+/* tablet screen = @media (min-width: 768px) */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        /*test background-color */
+            background-color: orange;
+    }
+}
+
+/* desktop screen = @media (min-width: 1158px) */
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        /*test background-color */
+            background-color: yellowgreen;
+    }
+}
+
