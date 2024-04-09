@@ -67,6 +67,9 @@ img {
     padding-bottom: 40px;
     background-color: var(--red-color);
 }
+.section__contact {
+    padding-bottom: 80px;
+}
 
 .container {
     max-width: 375px;
