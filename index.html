@@ -77,25 +77,28 @@
     </header>
 
     <!-- mobile-nav menu modal window -->
-    <div class=" header-section mobile-nav is-open">
-      <div class="header-section__wrapper container">
-        <a class="logo header-section__logo">
-          <svg width="16" height="16" class="icon icon--red">
-            <use href="./images/icons.svg#icon-logo-FHB"></use>
-          </svg>
-          <p class="logo__text">fresh harvest box</p>
-        </a>
-        <button type="button" class="mobile-nav__btn">
-          <svg 
-            class="icon icon--red" 
-            width="12" 
-            height="12"
-          >
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+    <div class="mobile-nav is-open">
+      <div class="header-section">
+        <div class="header-section__wrapper container">
+          <a class="logo header-section__logo">
+            <svg width="16" height="16" class="icon icon--red">
+              <use href="./images/icons.svg#icon-logo-FHB"></use>
+            </svg>
+            <p class="logo__text">fresh harvest box</p>
+          </a>
+          <button type="button" class="mobile-nav__btn">
+            <svg 
+              class="icon icon--red" 
+              width="24" 
+              height="24"
+            >
+              <use href="./images/icons.svg#icon-close-red"></use>
+            </svg>
+          </button>
+        </div>
       </div>
-      <ul class="mobile-menu">
+      <div class="mobile-menu__overlay container">
+        <ul class="mobile-menu">
         <li>
           <a href="#How It Works" class="mobile-menu__link">How It Works</a>
         </li>
@@ -111,13 +114,16 @@
           <a href="#basket"
           class="mobile-menu__link">
           <svg width="19" height="24" 
-          class="icon mobile-menu__icon">
+          class="icon icon--white">
             <use href="./images/icons.svg#icon-basket">
             </use>
           </svg>
           </a>
         </li>
       </ul>
+      </div> 
+      
+      
     </div>
 
     </main>
