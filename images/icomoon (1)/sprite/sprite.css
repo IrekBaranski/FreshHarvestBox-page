@@ -1,0 +1,21 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-Vector {
+  width: 46px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-Vector-1 {
+  width: 32px;
+  height: 32px;
+  background-position: -112px 0;
+}
+.icon-Vector-3 {
+  width: 27px;
+  height: 32px;
+  background-position: -168px 0;
+}
+
